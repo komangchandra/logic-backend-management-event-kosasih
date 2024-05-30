@@ -19,11 +19,6 @@ class AddEvenet extends Component {
     };
   }
 
-  // componentDidMount = async () => {
-  //   const pelaksanaRef = doc(db, "pelaksanaEvent", this.state.userId);
-  //   console.log(pelaksanaRef);
-  // };
-
   handleSubmit = async (e) => {
     e.preventDefault();
 
